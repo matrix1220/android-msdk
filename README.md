@@ -56,7 +56,7 @@ dependencies {
             .serviceId(12345)
             .merchantId(12345)
             .amount(50000.0)
-	    //transaction param is optional (not set it, if you not have your billing system)
+	    //transaction param is optional (not set it, if you do not have your billing system)
             .transactionParam("order_id_in_your_server ")
 //                .returnUrl("https://www.youtube.com/")
             .locale("UZ")
